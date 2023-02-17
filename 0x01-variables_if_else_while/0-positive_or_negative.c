@@ -6,6 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - Entry point
+ *This function generates a random number and prints whether it is positive, negative or zero.
  *
  * Retrun: Always 0 (Success)
  */
