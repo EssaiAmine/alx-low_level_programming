@@ -3,7 +3,7 @@
 #include<stdio.h>
 
 /**
-* main - a function tjat generates a num and prints (positive, negative or zero).
+* main - function  generates a num and prints (positive, negative or zero).
 *
 * Retrun: Always 0 (Success)
 */
