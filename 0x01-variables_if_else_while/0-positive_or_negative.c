@@ -3,9 +3,7 @@
 #include<stdio.h>
 
 /**
-* main - Entry point
-*
-*a  function generates a  number and prints ( positive, negative or zero)
+* main - a function tjat generates a num and prints (positive, negative or zero).
 *
 * Retrun: Always 0 (Success)
 */
