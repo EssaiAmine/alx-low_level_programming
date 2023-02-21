@@ -1,8 +1,8 @@
 #include "main.h"
 	#include <unistd.h>
 	/**
-	 * main : function that prints the alphabet, in lowercase.
-	 * _putchar - writes the character c to stdout
+	 * main -  function that prints the alphabet, in lowercase.
+	 * followed by a new line, using putchar
 	 * @c: The character to print
 	 *
 	 * Return: On success 1.
