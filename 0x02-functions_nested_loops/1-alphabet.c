@@ -1,7 +1,7 @@
 #include "main.h"
 	#include <unistd.h>
 	/**
-	 * main -  function that prints the alphabet, in lowercase.
+	 * function _putcharr -  function that prints the alphabet, in lowercase.
 	 * followed by a new line, using putchar
 	 * @c: The character to print
 	 *
