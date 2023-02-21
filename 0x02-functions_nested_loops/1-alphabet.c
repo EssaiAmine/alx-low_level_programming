@@ -7,7 +7,7 @@
  */
 int _putchar(char c)
 {
-    return (write(1, &c, 1));
+return (write(1, &c, 1));
 }
 
 /**
@@ -17,10 +17,9 @@ int _putchar(char c)
  */
 int main(void)
 {
-    char c;
-
-    for (c = 'a'; c <= 'z'; c++)
-        _putchar(c);
-    _putchar('\n');
-    return (0);
+char c;
+for (c = 'a'; c <= 'z'; c++)
+_putchar(c);
+_putchar('\n');
+return (0);
 }
