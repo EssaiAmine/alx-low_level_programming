@@ -1,12 +1,5 @@
 #include "main.h"
 /**
- * main - Entry point
- *  main - print _putchar
-* is written by mbah
-* Return: 0
-*/
-
-/**
  * _putchar - writes the character c to stdout
  * @c: The character to print
  *
@@ -17,6 +10,12 @@ int _putchar(char c)
 {
     return (write(1, &c, 1));
 }
+
+	/**
+	 * main - print _putchar
+	 * is written by mbah
+	 * Return: 0
+	 */
 
 int main(void)
 {
