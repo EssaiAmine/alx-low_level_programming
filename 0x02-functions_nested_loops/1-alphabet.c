@@ -1,7 +1,5 @@
-#include <unistd.h>
-/*
- *  _putchar - writes the character c to stdout
- * main - Entry point
+/**
+ * _putchar - writes the character c to stdout
  * @c: The character to print
  *
  * Return: On success 1.
@@ -9,11 +7,20 @@
  */
 int _putchar(char c)
 {
-return (write(1, &c, 1));
+    return (write(1, &c, 1));
 }
 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-return (0);
-}
+    char c;
 
+    for (c = 'a'; c <= 'z'; c++)
+        _putchar(c);
+    _putchar('\n');
+    return (0);
+}
